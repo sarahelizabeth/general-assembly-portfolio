@@ -1,0 +1,113 @@
+/* IMPORTS */
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css";
+/* COLORS */
+/* NAV */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* LANDING PAGE */
+.hero {
+  margin-top: -55px;
+}
+
+.hero-background img {
+  width: 100%;
+}
+
+.hero-body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.navbar-item {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+}
+
+#contact {
+  background-color: #EF0888;
+  color: white;
+  font-weight: 600;
+}
+
+#contact-modal {
+  text-align: center;
+}
+
+.modal-card-head {
+  background-color: #EF0888;
+  text-align: center;
+}
+
+.modal-card-title {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+}
+
+#contact-icon {
+  width: auto;
+  height: 30px;
+  position: relative;
+  top: 8px;
+  fill: #fff;
+}
+
+.contact-link {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.box {
+  background-color: #EF0888;
+}
+
+#skills-color {
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+}
+
+.content ul {
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+#skills-title {
+  color: #fff;
+  font-weight: 800;
+}
+
+.list-title {
+  font-weight: 800;
+}
+
+#small-text {
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+#skill-icon {
+  margin-top: 40px;
+  width: auto;
+  height: 80px;
+}
+
+#skill-icon-01 {
+  margin-top: 35px;
+  width: auto;
+  height: 90px;
+  margin-bottom: -5px;
+}
+
+#vert-line {
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

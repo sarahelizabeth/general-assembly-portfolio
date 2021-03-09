@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Personal Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  </head>
+  <body class="has-navbar-fixed-top">
+    <nav class="navbar is-fixed-top">
+      <div class="navbar-brand">
+        <a class="navbar-item">
+          <img src="./img/nav-brand.png" alt="Sarah Murray" width="112" height="28">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navMenu" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item">
+            Home
+          </a>
+          <a class="navbar-item">
+            About
+          </a>
+          <a class="navbar-item">
+            Projects
+          </a>
+          <a class="navbar-item">
+            Gallery
+          </a>
+          <div class="navbar-item">
+            <button id="contact" class="button is-rounded">
+              Contact
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="contact-modal" class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Contact Sarah</p>
+          <button id="close-modal" class="delete" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+          <span class="contact-link">
+            <img id="contact-icon" src="./img/icons8-linkedin.png" />
+            <a href="https://linkedin.com/in/semurray1">LinkedIn</a>
+          </span>
+          <span class="contact-link">
+            <img id="contact-icon" src="./img/icons8-behance.png" />
+            <a id="contact-link-1" href="https://behance.net/sarahemurray">Behance</a>
+          </span>
+          <span class="contact-link">
+            <img id="contact-icon" src="./img/icons8-octocat.png" />
+            <a href="https://github.com/sarahelizabeth">Github</a>
+          </span>
+        </section>
+      </div>
+    </div>
+
+    <section class="hero is-fullheight has-background">
+      <img class="hero-background" src="./img/landing-page-02.png"/>
+      <div class="hero-body">
+        <div class="container">
+          <div class="sample-color"></div>
+          <h1 class="title"></h1>
+          <h3 class="subtitle"></h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills has-text-centered">
+      <div class="container is-narrow">
+        <div class="box">
+          <div id="skills-color" class="content">
+            <div class="columns is-centered">
+              <div class="column">
+                <figure class="image">
+                  <img id="skill-icon" class="is-skill-icon" src="./img/designer-icon-white.png"/>
+                </figure>
+                <h1 id="skills-title" class="title is-size-4 is-spaced">Designer</h1>
+                <p id="small-text">I have over 8 years of design experience, from freelance projects such as custom business cards to branding design for large companies.</p>
+                <p class="list-title">
+                  Things I Enjoy Designing:
+                </p>
+                <p>UX, UI, Web, Mobile, Apps, Logos, Branding</p>
+                <p class="list-title">
+                  Design Tools:
+                </p>
+                <ul class="no-bullets">
+                  <li>Figma</li>
+                  <li>InDesign</li>
+                  <li>Webflow</li>
+                  <li>Balsamiq Mockups</li>
+                  <li>Pen & Paper</li>
+                </ul>
+              </div>
+              <div class="is-divider-vertical"></div>
+              <div id="vert-line" class="column">
+                <figure class="image">
+                  <img id="skill-icon-01" class="is-skill-icon" src="./img/front-end-icon-white.png"/>
+                </figure>
+                <h1 id="skills-title" class="title is-size-4 is-spaced">Front-End Developer</h1>
+                <p id="small-text">I enjoy coding things from scratch as well as learning about and implementing new tools and technologies.</p>
+                <p class="list-title">
+                  Languages I Use:
+                </p>
+                <p>HTML5/CSS, JavaScript, SQL, .NET</p>
+                <p class="list-title">
+                  Dev Tools:
+                </p>
+                <ul class="no-bullets">
+                  <li>Atom</li>
+                  <li>Github</li>
+                  <li>Sass</li>
+                  <li>Bulma</li>
+                  <li>Bootstrap</li>
+                  <li>JQuery</li>
+                  <li>Node.js</li>
+                  <li>Vue.js</li>
+                  <li>GSAP</li>
+                  <li>ScrollMagic</li>
+                </ul>
+              </div>
+              <div class="is-divider-vertical"></div>
+              <div class="column">
+                <figure class="image">
+                  <img id="skill-icon" class="is-skill-icon" src="./img/mentor-icon-white.png"/>
+                </figure>
+                <h1 id="skills-title" class="title is-size-4 is-spaced">Mentor / Educator</h1>
+                <p id="small-text">I am a passionate tutor and mentor who strongly believes in lifting up my community through education and professional development.</p>
+                <p class="list-title">
+                  Experiences I Draw From:
+                </p>
+                <p>One-on-One Tutoring, Freelancing, Hackathons</p>
+                <p class="list-title">
+                  Mentor Stats:
+                </p>
+                <ul class="no-bullets">
+                  <li>5 years experience</li>
+                  <li>2 Graphic Design bootcamps for young women</li>
+                  <li>10 Front-end Dev classes</li>
+                  <li>5 years CS and Math tutoring</li>
+                  <li>50+ students</li>
+                  <li>10+ students who went into the tech field</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>&copy; 2021 Sarah Murray</p>
+        <p>Created with HTML, CSS, JavaScript, Bulma, & Sass</p>
+      </div>
+    </footer>
+  </body>
+<script src="./app.js"></script>
+</html>
